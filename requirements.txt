@@ -1,0 +1,6 @@
+pygame
+numpy
+requests
+geopy
+pytz
+timezonefinder
