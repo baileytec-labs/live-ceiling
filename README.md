@@ -5,6 +5,7 @@ update: You can now install this using `pip install sky-ceiling-projector`!
 Live-ceiling turns a Raspberry Pi Zero 2 W and any HDMI projector into a miniature planetarium that shows a weather-accurate, time-accurate sky for **any city in the world**—complete with stars, Moon phases, planets, shooting stars, clouds, rain, snow, lightning, and smooth colour transitions when you “fly” to another location. All data comes from free, no-key public APIs, so the setup can run indefinitely with nothing more than Wi-Fi.
 
 ## **✨ Key Features**
+ 
 
 * **Real-time sky gradient** that matches local dawn, day, sunset, dusk and night.
 
