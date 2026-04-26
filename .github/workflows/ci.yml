@@ -17,6 +17,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libsdl2-2.0-0 libsdl2-image-2.0-0 libsdl2-mixer-2.0-0 libsdl2-ttf-2.0-0
+
       - name: Install dependencies
         run: |
           pip install --upgrade pip
@@ -25,7 +30,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests/ -v --tb=short
+          pytest tests/ -v --tb=short -x
 
   lint:
     runs-on: ubuntu-latest
