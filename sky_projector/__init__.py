@@ -15,10 +15,32 @@ __email__ = "sean_bailey@baileytec.net"
 __description__ = "Realistic sky ceiling projector with weather integration"
 
 # Main exports
-from .projector import SkySimulator
+from .projector import (
+    SkySimulator,
+    geocode_location,
+    Star,
+    Planet,
+    DetailedCloud,
+    EnhancedShootingStar,
+    Satellite,
+    MilkyWay,
+    BrightFlare,
+    SimpleParticle,
+    SimpleLightning,
+)
 
 __all__ = [
     "SkySimulator",
+    "geocode_location",
+    "Star",
+    "Planet",
+    "DetailedCloud",
+    "EnhancedShootingStar",
+    "Satellite",
+    "MilkyWay",
+    "BrightFlare",
+    "SimpleParticle",
+    "SimpleLightning",
     "__version__",
     "__author__",
     "__email__",
